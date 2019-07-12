@@ -1,0 +1,241 @@
+nav{
+    box-shadow: 0px 8px 30px rgba(93, 163, 238, 0.15);
+}
+a.nav-link{
+    font-family: Source Sans Pro; 
+    font-size: 14px;
+    line-height: 18px; 
+    color: #27394B;
+}
+.bluetop{
+    background: #F7FAFC;
+    border-radius:  10px 10px 0 0;
+}
+.bluebox{
+    background: linear-gradient(86.38deg, #0182FF 47.61%, #565FDC 114.86%);
+    padding: 50px 100px;
+}
+.update{
+    background: #feeded;
+    color: #EB5757;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: source code pro;
+}
+.retail{
+    background: #E8F1FB;
+    color: #5DA3EE;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: source code pro;
+}
+.office{
+    background: #FEF5ED;
+    color: #F2994A;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: source code pro;
+}
+.residential{
+    background: #E3FFED;
+    color: #30C763;
+    line-height: 15px;
+    font-size: 12px;
+    font-family: source code pro;
+}
+figure img.card-img-top{
+    border-radius:  6px 6px 0 0;
+}
+.card_footer{
+    background: #F7FAFC;
+    border-radius:  0 0 6px 6px;
+}
+.card.similar_projects{
+    border: 1px solid #516170;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+.card.card.similar_projects figure{
+    max-width: 400px;
+    min-width: 300px;
+    overflow: hidden !important;
+  }
+.card.card.similar_projects figure img.card-img-top  {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.card.similar_projects:hover{
+    box-shadow: 0px 6px 16px rgba(88, 111, 224, 0.29);
+    border: none;
+}
+.card.similar_projects:hover figure img.card-img-top {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+#home{
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.26), rgba(67, 67, 67, 0.16)), url('../img/architectural-design-architecture-buildings-934586.png');
+    background-size: cover;
+    height: 70vh;
+}
+.first-rectangle{
+    box-shadow: 0px 6px 16px rgba(88, 111, 224, 0.29);
+    border-radius: 10px;
+    background: #fff;
+    margin-top: -305px;
+}
+.footer{
+    background: #032B71;
+
+}
+.footer .inner{
+    background: url('../img/Footer.png');
+}
+.footer_form{
+    background: #03245E;
+    border: 1px solid #03245E;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 15px;
+    /* font-family: Circular Std; */
+    color: #fff !important;    
+}
+.footer_form.form-control:focus{
+box-shadow: none;
+border: none;
+background: #03245E;
+}
+.white_form{
+    background: #FFFFFF; 
+    border: 1px solid #5DA3EE;
+    font-family: source sans pro;
+    height: 49px;
+    font-size: 14px;
+    color: #516170;
+    border-radius: 6px;
+}
+.white_form.form-control:focus{
+box-shadow: none;
+border: 1px solid #032B71;
+}
+
+.nav-item:hover, .nav-item.active{
+    background: linear-gradient(180deg, rgba(93, 163, 238, 0) 50%, #565FDC 332.14%);
+}
+.btn-blue{
+    background: linear-gradient(90deg, #5DA3EE -32%, #565FDC 136%);
+    border-radius: 6px;
+    color: #fff;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    transition: .3s ease-in-out;
+}
+.btn-blue:hover{
+    box-shadow: 0px 6px 16px rgba(88, 111, 224, 0.29);
+    color: #fff;
+}
+.btn-green{
+    background: #45E5DD;
+    border-radius: 4px;
+    /* font-family: Circular Std; */
+    font-size: 16px;
+    height: 58px;
+    color: #565FDC;
+    transition: .3s ease-in-out;
+}
+.btn-green:hover{
+    box-shadow: 0px 6px 16px rgba(88, 111, 224, 0.29);
+    color: #565FDC;    
+}
+
+.pl-14-23{
+    line-height: 23px !important;
+}
+.pl-10{
+    color: #516170;
+    font-size: 10px;
+    font-family: source sans pro;
+}
+.w-10{
+    color: #F7FAFC;
+    font-size: 10px;
+    font-family: source sans pro;
+}
+.pl-12{
+    color: #516170;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: source sans pro;
+}
+.p-12{
+    color: #27394B;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: source sans pro;
+}
+.p-14{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: source sans pro;
+    color: #27394B;
+}
+.pl-14{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: source sans pro;
+    color: #516170;
+}a.w-14:hover{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.7);
+}
+.w-14{
+    /* font-family: Circular Std; */
+    font-size: 14px;
+    line-height: 18px;
+    color: #F7FAFC;
+}
+.w-16{
+    /* font-family: Circular Std; */
+    font-size: 16px;
+    line-height: 20px;
+    color: #F7FAFC;
+}
+.p-18{
+    font-size: 18px;
+    line-height: 23px;
+    font-family: source sans pro;
+    color: #27394B;
+}
+.pl-18{
+    font-size: 18px;
+    line-height: 23px;
+    font-family: source sans pro;
+    color: #516170;
+}
+.w-20{
+    /* font-family: Circular Std; */
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.p-32{
+    /* font-family: Circular Std; */
+    font-size: 32px;
+    color: #516170;
+}
+.b-34{
+    font-size: 34px;
+    /* font-family: Circular Std; */    
+    color: #565FDC;
+}
+.w-36{
+    /* font-family: Circular Std; */
+    font-size: 36px;
+    color: #FFFFFF;
+}
+@media (max-width: 768px){
+    .bluebox{
+        padding: 25px 40px;
+    }
+}
