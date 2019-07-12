@@ -57,7 +57,7 @@ figure img.card-img-top{
 }
 .card.card.similar_projects figure{
     max-width: 400px;
-    min-width: 300px;
+    min-width: 250px;
     overflow: hidden !important;
   }
 .card.card.similar_projects figure img.card-img-top  {
@@ -237,5 +237,14 @@ color: rgba(255, 255, 255, 0.7);
 @media (max-width: 768px){
     .bluebox{
         padding: 25px 40px;
+    }
+    .p-32{
+        font-size: 24px;
+    }
+    .b-34{
+        font-size: 26px;
+    }
+    .w-36{
+        font-size: 28px;
     }
 }
